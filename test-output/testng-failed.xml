@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="/Users/jomariflores/IdeaProjects/WebAutomation(failed)">
+    <classes>
+      <class name="Test.WebFormTest2">
+        <methods>
+          <include name="setup"/>
+          <include name="submitForm2"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Test.WebFormTest2 -->
+      <class name="Test.WebFormTest">
+        <methods>
+          <include name="setup"/>
+          <include name="submitForm"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Test.WebFormTest -->
+    </classes>
+  </test> <!-- /Users/jomariflores/IdeaProjects/WebAutomation(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
